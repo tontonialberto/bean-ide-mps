@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="Example" uuid="9d2c0b71-7bac-4774-90d1-24eff3f6afe9" languageVersion="0" moduleVersion="0">
+<language namespace="Bean" uuid="9d2c0b71-7bac-4774-90d1-24eff3f6afe9" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot path="${module}/models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="Example.generator" uuid="ce612064-3322-4ec2-9d70-a17644a1d081">
+    <generator alias="main" namespace="Bean.generator" uuid="ce612064-3322-4ec2-9d70-a17644a1d081">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot path="${module}/generator/templates" />
@@ -44,8 +44,8 @@
       </languageVersions>
       <dependencyVersions>
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-        <module reference="9d2c0b71-7bac-4774-90d1-24eff3f6afe9(Example)" version="0" />
-        <module reference="ce612064-3322-4ec2-9d70-a17644a1d081(Example.generator)" version="0" />
+        <module reference="9d2c0b71-7bac-4774-90d1-24eff3f6afe9(Bean)" version="0" />
+        <module reference="ce612064-3322-4ec2-9d70-a17644a1d081(Bean.generator)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
@@ -96,7 +96,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
-    <module reference="9d2c0b71-7bac-4774-90d1-24eff3f6afe9(Example)" version="0" />
+    <module reference="9d2c0b71-7bac-4774-90d1-24eff3f6afe9(Bean)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />

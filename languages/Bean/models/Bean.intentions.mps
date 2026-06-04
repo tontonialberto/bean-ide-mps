@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:fe3d8986-99bf-4b0a-b954-0ea309da0144(Example.intentions)">
+<model ref="r:fe3d8986-99bf-4b0a-b954-0ea309da0144(Bean.intentions)">
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Example.structure)" implicit="true" />
+    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Bean.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">

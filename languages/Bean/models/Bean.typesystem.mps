@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:cf167d45-2368-455e-b1dc-856978805fbf(Example.typesystem)">
+<model ref="r:cf167d45-2368-455e-b1dc-856978805fbf(Bean.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
@@ -7,8 +7,8 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Example.structure)" />
-    <import index="sqeb" ref="r:cca01e25-804e-4251-834c-1338367d39ef(Example.behavior)" />
+    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Bean.structure)" />
+    <import index="sqeb" ref="r:cca01e25-804e-4251-834c-1338367d39ef(Bean.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>

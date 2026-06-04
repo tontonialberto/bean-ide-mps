@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:089b9ecd-61d0-4198-ba05-adb91fa84580(Example.constraints)">
+<model ref="r:089b9ecd-61d0-4198-ba05-adb91fa84580(Bean.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />
@@ -14,7 +14,7 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Example.structure)" implicit="true" />
+    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Bean.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">

@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b8ce3415-ae60-4951-9fc8-dc62cd6b1f18(Example.editor)">
+<model ref="r:b8ce3415-ae60-4951-9fc8-dc62cd6b1f18(Bean.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="15" />
     <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="4" />
-    <use id="9d2c0b71-7bac-4774-90d1-24eff3f6afe9" name="Example" version="0" />
     <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
-    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Example.structure)" />
+    <import index="ke35" ref="r:2989d431-ffca-4d3c-86eb-05e1c7fe32bd(Bean.structure)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
