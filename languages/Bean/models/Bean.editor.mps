@@ -371,10 +371,10 @@
     </node>
   </node>
   <node concept="24kQdi" id="16EXoXrc$p5">
-    <ref role="1XX52x" to="ke35:16EXoXrcyem" resolve="Identifier" />
+    <ref role="1XX52x" to="ke35:16EXoXrcyem" resolve="IdentifierDecl" />
     <node concept="3F0A7n" id="16EXoXrxuMv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      <ref role="34QXea" node="16EXoXr_DgK" resolve="Identifier_KeyMap" />
+      <ref role="34QXea" node="16EXoXr_DgK" resolve="IdentifierDecl_KeyMap" />
       <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
     </node>
   </node>
@@ -464,7 +464,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="16EXoXrhuw6">
-    <ref role="1XX52x" to="ke35:16EXoXrhuw4" resolve="BinaryOperationSub" />
+    <ref role="1XX52x" to="ke35:16EXoXrhuw4" resolve="OperationSub" />
     <node concept="3EZMnI" id="16EXoXrhuw8" role="2wV5jI">
       <node concept="3F0ifn" id="16EXoXrhuwe" role="3EZMnx">
         <property role="3F0ifm" value="sub" />
@@ -480,7 +480,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="16EXoXrhRXZ">
-    <ref role="1XX52x" to="ke35:16EXoXrhuw3" resolve="BinaryOperationAdd" />
+    <ref role="1XX52x" to="ke35:16EXoXrhuw3" resolve="OperationAdd" />
     <node concept="3EZMnI" id="16EXoXrhRY1" role="2wV5jI">
       <node concept="3F0ifn" id="16EXoXrhRY5" role="3EZMnx">
         <property role="3F0ifm" value="add" />
@@ -496,7 +496,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="16EXoXrhZFi">
-    <ref role="1XX52x" to="ke35:16EXoXrhZFg" resolve="BinaryOperationMul" />
+    <ref role="1XX52x" to="ke35:16EXoXrhZFg" resolve="OperationMul" />
     <node concept="3EZMnI" id="16EXoXrhZFp" role="2wV5jI">
       <node concept="3F0ifn" id="16EXoXrhZFr" role="3EZMnx">
         <property role="3F0ifm" value="mul" />
@@ -512,7 +512,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="16EXoXrhZFC">
-    <ref role="1XX52x" to="ke35:16EXoXrhZFA" resolve="BinaryOperationDiv" />
+    <ref role="1XX52x" to="ke35:16EXoXrhZFA" resolve="OperationDiv" />
     <node concept="3EZMnI" id="16EXoXrhZFE" role="2wV5jI">
       <node concept="3F0ifn" id="16EXoXrhZFI" role="3EZMnx">
         <property role="3F0ifm" value="div" />
@@ -528,7 +528,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="16EXoXrhZFU">
-    <ref role="1XX52x" to="ke35:16EXoXrhZFR" resolve="BinaryOperationDMul" />
+    <ref role="1XX52x" to="ke35:16EXoXrhZFR" resolve="OperationDMul" />
     <node concept="3EZMnI" id="16EXoXrhZFW" role="2wV5jI">
       <node concept="3F0ifn" id="16EXoXrhZG0" role="3EZMnx">
         <property role="3F0ifm" value="dmul" />
@@ -699,8 +699,8 @@
     </node>
   </node>
   <node concept="325Ffw" id="16EXoXr_DgK">
-    <property role="TrG5h" value="Identifier_KeyMap" />
-    <ref role="1chiOs" to="ke35:16EXoXrcyem" resolve="Identifier" />
+    <property role="TrG5h" value="IdentifierDecl_KeyMap" />
+    <ref role="1chiOs" to="ke35:16EXoXrcyem" resolve="IdentifierDecl" />
     <node concept="2PxR9H" id="16EXoXr_DgL" role="2QnnpI">
       <property role="2IlM53" value="gAIlo0M/FIRST_POSITION" />
       <node concept="2Py5lD" id="16EXoXr_DgM" role="2PyaAO">
@@ -744,7 +744,7 @@
                   <node concept="2pIpSj" id="16EXoXr_X5S" role="2pJxcM">
                     <ref role="2pIpSl" to="ke35:16EXoXrFruj" resolve="id2" />
                     <node concept="2pJPED" id="16EXoXrAqCC" role="28nt2d">
-                      <ref role="2pJxaS" to="ke35:16EXoXrcyem" resolve="Identifier" />
+                      <ref role="2pJxaS" to="ke35:16EXoXrcyem" resolve="IdentifierDecl" />
                     </node>
                   </node>
                   <node concept="2pIpSj" id="16EXoXr_VM8" role="2pJxcM">

@@ -440,7 +440,7 @@
     </node>
   </node>
   <node concept="1YbPZF" id="16EXoXrhuwt">
-    <property role="TrG5h" value="typeof_BinaryOperationSub" />
+    <property role="TrG5h" value="typeof_OperationSub" />
     <node concept="3clFbS" id="16EXoXrhuwu" role="18ibNy">
       <node concept="1Z5TYs" id="16EXoXrhJTH" role="3cqZAp">
         <node concept="mw_s8" id="16EXoXrhJU5" role="1ZfhKB">
@@ -497,11 +497,11 @@
     </node>
     <node concept="1YaCAy" id="16EXoXrhuww" role="1YuTPh">
       <property role="TrG5h" value="op" />
-      <ref role="1YaFvo" to="ke35:16EXoXrhuw4" resolve="BinaryOperationSub" />
+      <ref role="1YaFvo" to="ke35:16EXoXrhuw4" resolve="OperationSub" />
     </node>
   </node>
   <node concept="1YbPZF" id="16EXoXrhZKN">
-    <property role="TrG5h" value="typeof_BinaryOperationAdd" />
+    <property role="TrG5h" value="typeof_OperationAdd" />
     <node concept="3clFbS" id="16EXoXrhZKO" role="18ibNy">
       <node concept="1Z5TYs" id="16EXoXrhZOo" role="3cqZAp">
         <node concept="mw_s8" id="16EXoXrhZOp" role="1ZfhKB">
@@ -558,11 +558,11 @@
     </node>
     <node concept="1YaCAy" id="16EXoXrhZKQ" role="1YuTPh">
       <property role="TrG5h" value="op" />
-      <ref role="1YaFvo" to="ke35:16EXoXrhuw3" resolve="BinaryOperationAdd" />
+      <ref role="1YaFvo" to="ke35:16EXoXrhuw3" resolve="OperationAdd" />
     </node>
   </node>
   <node concept="1YbPZF" id="16EXoXri0s5">
-    <property role="TrG5h" value="typeof_BinaryOperationMul" />
+    <property role="TrG5h" value="typeof_OperationMul" />
     <node concept="3clFbS" id="16EXoXri0s6" role="18ibNy">
       <node concept="1Z5TYs" id="16EXoXri0s7" role="3cqZAp">
         <node concept="mw_s8" id="16EXoXri0s8" role="1ZfhKB">
@@ -619,11 +619,11 @@
     </node>
     <node concept="1YaCAy" id="16EXoXri0sw" role="1YuTPh">
       <property role="TrG5h" value="op" />
-      <ref role="1YaFvo" to="ke35:16EXoXrhZFg" resolve="BinaryOperationMul" />
+      <ref role="1YaFvo" to="ke35:16EXoXrhZFg" resolve="OperationMul" />
     </node>
   </node>
   <node concept="1YbPZF" id="16EXoXri0Dw">
-    <property role="TrG5h" value="typeof_BinaryOperationDMul" />
+    <property role="TrG5h" value="typeof_OperationDMul" />
     <node concept="3clFbS" id="16EXoXri0Dx" role="18ibNy">
       <node concept="1Z5TYs" id="16EXoXri0Dy" role="3cqZAp">
         <node concept="mw_s8" id="16EXoXri0Dz" role="1ZfhKB">
@@ -680,11 +680,11 @@
     </node>
     <node concept="1YaCAy" id="16EXoXri0DV" role="1YuTPh">
       <property role="TrG5h" value="op" />
-      <ref role="1YaFvo" to="ke35:16EXoXrhZFR" resolve="BinaryOperationDMul" />
+      <ref role="1YaFvo" to="ke35:16EXoXrhZFR" resolve="OperationDMul" />
     </node>
   </node>
   <node concept="1YbPZF" id="16EXoXri0MG">
-    <property role="TrG5h" value="typeof_BinaryOperationDiv" />
+    <property role="TrG5h" value="typeof_OperationDiv" />
     <node concept="3clFbS" id="16EXoXri0MH" role="18ibNy">
       <node concept="1Z5TYs" id="16EXoXri0MI" role="3cqZAp">
         <node concept="mw_s8" id="16EXoXri0MJ" role="1ZfhKB">
@@ -744,7 +744,7 @@
     </node>
     <node concept="1YaCAy" id="16EXoXri0N7" role="1YuTPh">
       <property role="TrG5h" value="op" />
-      <ref role="1YaFvo" to="ke35:16EXoXrhZFA" resolve="BinaryOperationDiv" />
+      <ref role="1YaFvo" to="ke35:16EXoXrhZFA" resolve="OperationDiv" />
     </node>
   </node>
   <node concept="1YbPZF" id="16EXoXrixrJ">
@@ -1268,7 +1268,7 @@
     </node>
     <node concept="1YaCAy" id="16EXoXrJZFL" role="1YuTPh">
       <property role="TrG5h" value="identifier" />
-      <ref role="1YaFvo" to="ke35:16EXoXrcyem" resolve="Identifier" />
+      <ref role="1YaFvo" to="ke35:16EXoXrcyem" resolve="IdentifierDecl" />
     </node>
   </node>
   <node concept="Q5z_Y" id="16EXoXrKVbZ">
@@ -2040,7 +2040,7 @@
       <node concept="37vLTG" id="1u9nW95HD6_" role="3clF46">
         <property role="TrG5h" value="identifier" />
         <node concept="3Tqbb2" id="1u9nW95HD6$" role="1tU5fm">
-          <ref role="ehGHo" to="ke35:16EXoXrcyem" resolve="Identifier" />
+          <ref role="ehGHo" to="ke35:16EXoXrcyem" resolve="IdentifierDecl" />
         </node>
       </node>
     </node>

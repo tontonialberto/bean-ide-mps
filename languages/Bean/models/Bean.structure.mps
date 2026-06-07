@@ -67,7 +67,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ident" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="16EXoXrcyem" resolve="Identifier" />
+      <ref role="20lvS9" node="16EXoXrcyem" resolve="IdentifierDecl" />
     </node>
     <node concept="1TJgyj" id="16EXoXrcfa1" role="1TKVEi">
       <property role="IQ2ns" value="1273099840744649345" />
@@ -147,7 +147,7 @@
   </node>
   <node concept="1TIwiD" id="16EXoXrcyem">
     <property role="EcuMT" value="1273099840744727446" />
-    <property role="TrG5h" value="Identifier" />
+    <property role="TrG5h" value="IdentifierDecl" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="16EXoXr$XbX" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -164,7 +164,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ident" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="16EXoXrcyem" resolve="Identifier" />
+      <ref role="20lvS9" node="16EXoXrcyem" resolve="IdentifierDecl" />
     </node>
     <node concept="1TJgyj" id="16EXoXrcE4Q" role="1TKVEi">
       <property role="IQ2ns" value="1273099840744759606" />
@@ -185,7 +185,7 @@
       <property role="IQ2ns" value="1273099840744759608" />
       <property role="20kJfa" value="ref" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="16EXoXrcyem" resolve="Identifier" />
+      <ref role="20lvS9" node="16EXoXrcyem" resolve="IdentifierDecl" />
     </node>
   </node>
   <node concept="1TIwiD" id="16EXoXrcE4U">
@@ -236,21 +236,21 @@
   </node>
   <node concept="1TIwiD" id="16EXoXrhuw3">
     <property role="EcuMT" value="1273099840746022915" />
-    <property role="TrG5h" value="BinaryOperationAdd" />
+    <property role="TrG5h" value="OperationAdd" />
     <property role="34LRSv" value="add" />
     <property role="R4oN_" value="add: num -&gt; num -&gt; num" />
-    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="BinaryOperation" />
+    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="Operation" />
   </node>
   <node concept="1TIwiD" id="16EXoXrhuw4">
     <property role="EcuMT" value="1273099840746022916" />
-    <property role="TrG5h" value="BinaryOperationSub" />
+    <property role="TrG5h" value="OperationSub" />
     <property role="34LRSv" value="sub" />
     <property role="R4oN_" value="sub: num -&gt; num -&gt; num" />
-    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="BinaryOperation" />
+    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="Operation" />
   </node>
   <node concept="1TIwiD" id="16EXoXrhRY8">
     <property role="EcuMT" value="1273099840746127240" />
-    <property role="TrG5h" value="BinaryOperation" />
+    <property role="TrG5h" value="Operation" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="16EXoXrcE4U" resolve="Expression" />
     <node concept="1TJgyj" id="16EXoXrhRY9" role="1TKVEi">
@@ -270,24 +270,24 @@
   </node>
   <node concept="1TIwiD" id="16EXoXrhZFg">
     <property role="EcuMT" value="1273099840746158800" />
-    <property role="TrG5h" value="BinaryOperationMul" />
+    <property role="TrG5h" value="OperationMul" />
     <property role="34LRSv" value="mul" />
     <property role="R4oN_" value="mul: num -&gt; num -&gt; num" />
-    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="BinaryOperation" />
+    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="Operation" />
   </node>
   <node concept="1TIwiD" id="16EXoXrhZFA">
     <property role="EcuMT" value="1273099840746158822" />
-    <property role="TrG5h" value="BinaryOperationDiv" />
+    <property role="TrG5h" value="OperationDiv" />
     <property role="34LRSv" value="div" />
     <property role="R4oN_" value="div: num -&gt; num -&gt; num" />
-    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="BinaryOperation" />
+    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="Operation" />
   </node>
   <node concept="1TIwiD" id="16EXoXrhZFR">
     <property role="EcuMT" value="1273099840746158839" />
-    <property role="TrG5h" value="BinaryOperationDMul" />
+    <property role="TrG5h" value="OperationDMul" />
     <property role="34LRSv" value="dmul" />
     <property role="R4oN_" value="dmul: dnum -&gt; num -&gt; num" />
-    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="BinaryOperation" />
+    <ref role="1TJDcQ" node="16EXoXrhRY8" resolve="Operation" />
   </node>
   <node concept="1TIwiD" id="16EXoXrlDEb">
     <property role="EcuMT" value="1273099840747117195" />
@@ -314,14 +314,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="id1" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="16EXoXrcyem" resolve="Identifier" />
+      <ref role="20lvS9" node="16EXoXrcyem" resolve="IdentifierDecl" />
     </node>
     <node concept="1TJgyj" id="16EXoXrFruj" role="1TKVEi">
       <property role="IQ2ns" value="1273099840752826259" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="id2" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="16EXoXrcyem" resolve="Identifier" />
+      <ref role="20lvS9" node="16EXoXrcyem" resolve="IdentifierDecl" />
     </node>
     <node concept="1TJgyj" id="16EXoXrFruk" role="1TKVEi">
       <property role="IQ2ns" value="1273099840752826260" />

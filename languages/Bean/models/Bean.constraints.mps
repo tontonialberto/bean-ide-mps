@@ -36,7 +36,7 @@
     <node concept="1N5Pfh" id="16EXoXrNLdc" role="1Mr941">
       <ref role="1N5Vy1" to="ke35:16EXoXrcE4S" resolve="ref" />
       <node concept="1dDu$B" id="16EXoXrNLdS" role="1N6uqs">
-        <ref role="1dDu$A" to="ke35:16EXoXrcyem" resolve="Identifier" />
+        <ref role="1dDu$A" to="ke35:16EXoXrcyem" resolve="IdentifierDecl" />
       </node>
     </node>
   </node>
