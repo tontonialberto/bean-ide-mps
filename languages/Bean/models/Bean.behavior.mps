@@ -203,26 +203,6 @@
       <concept id="1180964022718" name="jetbrains.mps.baseLanguage.collections.structure.ConcatOperation" flags="nn" index="3QWeyG" />
     </language>
   </registry>
-  <node concept="13h7C7" id="16EXoXrHvjo">
-    <ref role="13h7C2" to="ke35:16EXoXrcE4K" resolve="LetBinding" />
-    <node concept="13hLZK" id="16EXoXrHvjp" role="13h7CW">
-      <node concept="3clFbS" id="16EXoXrHvjq" role="2VODD2">
-        <node concept="3clFbF" id="16EXoXrHvjG" role="3cqZAp">
-          <node concept="37vLTI" id="16EXoXrHwHq" role="3clFbG">
-            <node concept="3clFbT" id="16EXoXrHwI1" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="2OqwBi" id="16EXoXrHvuE" role="37vLTJ">
-              <node concept="13iPFW" id="16EXoXrHvjF" role="2Oq$k0" />
-              <node concept="3TrcHB" id="16EXoXrHvPc" role="2OqNvi">
-                <ref role="3TsBF5" to="ke35:16EXoXrFvdx" resolve="isLinear" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="13h7C7" id="16EXoXrMhP3">
     <ref role="13h7C2" to="ke35:16EXoXrcyem" resolve="Identifier" />
     <node concept="13i0hz" id="16EXoXrMhPm" role="13h7CS">
@@ -558,6 +538,26 @@
     </node>
     <node concept="13hLZK" id="16EXoXrMBp2" role="13h7CW">
       <node concept="3clFbS" id="16EXoXrMBp3" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1u9nW95WO9O">
+    <ref role="13h7C2" to="ke35:16EXoXrFvdw" resolve="INumericBinding" />
+    <node concept="13hLZK" id="1u9nW95WO9P" role="13h7CW">
+      <node concept="3clFbS" id="1u9nW95WO9Q" role="2VODD2">
+        <node concept="3clFbF" id="1u9nW95WOa8" role="3cqZAp">
+          <node concept="37vLTI" id="1u9nW95WPuV" role="3clFbG">
+            <node concept="2OqwBi" id="1u9nW95WOjr" role="37vLTJ">
+              <node concept="13iPFW" id="1u9nW95WOa7" role="2Oq$k0" />
+              <node concept="3TrcHB" id="1u9nW95WOyO" role="2OqNvi">
+                <ref role="3TsBF5" to="ke35:16EXoXrFvdx" resolve="isLinear" />
+              </node>
+            </node>
+            <node concept="3clFbT" id="1u9nW95XhkD" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
